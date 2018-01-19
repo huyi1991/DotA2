@@ -1,0 +1,308 @@
+<!-- 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    HTML master file.
+    For internal IBM learning usage.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page tag title -->
+    <title>My First Webpage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+    <!-- FontAwesome; code after any Themes and Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <!-- Customise CSS; code as the last item -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- OUTLINER for development purposes Only - To be commented out for Production releases -->
+        <style type="text/css">
+            /* body{border: 2px solid blue;} */
+            /* .container{border: 2px solid green;} */
+            /* .jumbotron{border: 3px solid purple;} */
+            /* .row{border: 2px dotted red;} */
+            /* .row[class*='col-']{border: 3px solid purple;} */
+            /* .show{border: 3px solid purple;} */
+        </style>
+</head>
+
+<body>
+    <!-- Top Navigation bar -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.ibm.com/ibm/sg/en/" target="_blank">
+            <img src="image/ibm_stripblack.png" alt="">
+        </a>
+    </nav>
+
+    <!-- CONTAINER - code entire page contents within this div class="container"-->
+    <div class="container-fluid">
+        <!-- ROW1: Jumbotron -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <!-- Jumbotron example -->
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Hello, world! Fluid jumbotron</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of ROW1: Jumbotron -->
+
+        <!-- ROW2: Image-Thumbnails -->
+        <div class="row">
+            <!-- Row2 Col1of3 -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>title</h3>
+                        <p>quick brown fox jumps over the lazy dog.</p>
+                        <a href="#" class="btn btn-primary btn-sm">click</a>
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col1of3 -->
+
+            <!-- ROW2 Col2of3 -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>title</h3>
+                        <p>quick brown fox jumps over the lazy dog.</p>
+                        <a href="#" class="btn btn-primary btn-sm">click</a>
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col2of3 -->
+
+            <!-- ROW2 Col3of3 -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>title</h3>
+                        <p>quick brown fox jumps over the lazy dog.</p>
+                        <a href="#" class="btn btn-primary btn-sm">click</a>
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col3of3 -->
+        </div>
+        <!-- end of Row2: Image-Thumbnails -->
+
+        <!-- ROW3: Video -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <!-- Embed Video -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qTSDL94_Y7M" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div><br>
+        <!-- end of ROW3: Video -->
+
+        <!-- ROW4: Form & Text -->
+        <div class="row">
+            <!-- Row4 Col1of2: Form -->
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-6
+                        col-lg-6 show">
+                <!-- Form -->
+                <div class="card card-default">
+                    <div class="card-body">
+                        <!-- Form Registration -->
+                        <form action="https://script.google.com/macros/s/AKfycbx2UwJqxaPmLYMRvqenC3y1glMyJJAdgeqlYTrLaKvfgSpZaNTr/exec" 
+                            method="post">
+
+                            <legend class="card-header">Sign up</legend>
+                            <br>
+                            <div class="form-group">
+                                <label for="name-id">Name: </label>
+                                <input type="text" name="NAME" id="name-id" placeholder="frank lee" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-id">Email: </label>
+                                <input type="email" name="EMAIL" id="email-id" placeholder="franklee@email.com" class="form-control" required>
+                            </div>
+                            <br>
+                            <!-- <div class="form-group">
+                                <input type="submit" class="btn btn-primary">
+                            </div> -->
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary my-btn form-control" id="submit-id">submit</button>                   
+                                <hr>
+                                <!-- alert-dismissible fadeIn -->
+                                <div class="alert alert-danger alert-dismissible fadeIn" id="alert-id" hidden>
+                                    <button type="button" class="close" id="close-id"><span>&times;</span></button>
+                                    Thank you! I will get in touch.
+                                </div>
+                            </div>
+                        </form>
+                        <!-- end of Form Registration -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of Row4 Col1of2: Form -->
+
+            <!-- ROW4 Col2of2: Text -->
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-6
+                        col-lg-6
+                        text-center show">
+                <h1>MY TITLE</h1>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                </p>
+            </div>
+            <!-- end of ROW4 Col2of2: Text -->
+        </div><br>
+        <!-- end of ROW4: Form & Text -->
+
+        <!-- ROW5: Details -->
+        <div class="row">
+            <!-- ROW5 Col1of3: Table -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Table -->
+                <h3>Table title</h3>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 1</td>
+                        </tr>
+                        <tr>
+                            <td>content 2</td>
+                            <td>content 2</td>
+                        </tr>
+                        <tr>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                    </tbody>
+                </table><br>
+            </div>
+            <!-- end of ROW5 Col1of3: Table -->
+
+            <!-- ROW5 Col2: Map -->
+            <div class="col-xs-12
+                            col-sm-4
+                            col-md-4
+                            col-lg-4 show">
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://goo.gl/kBckE1" class="embed-responsive-item"></iframe>
+                </div><br>
+            </div>
+            <!-- end of ROW5 Col2: Map -->
+
+            <!-- ROW5 Col3: List group -->
+            <div class="col-xs-12
+                            col-sm-4
+                            col-md-4
+                            col-lg-4 show">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> one
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> two
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> three
+                    </a>
+                </div>
+            </div>
+            <!-- end of ROW5 Col3: List group -->
+        </div><hr>
+        <!-- end of ROW5: Details -->
+
+        <!-- ROW6: Footer -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of ROW6: Footer -->
+
+    </div>
+    <!-- end of CONTAINER - code entire page contents within this div class="container"-->
+
+    <!-- JavaScript - jQuery first, follows by tether.js, Popper.js, then Bootstrap JS in sequence -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- Customise JavaScript -->
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>

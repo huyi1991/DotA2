@@ -1,0 +1,90 @@
+/* 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    CSS styling slave file.
+    For internal IBM learning usage.
+*/
+
+
+/*  ----- HTML Body Styles -----  */
+body {
+  /* Position: relative; */
+  margin: 0;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  
+  /* Padding for top navbar fixed  */
+  padding-top: 75px; 
+}
+html {
+  font-size: 14px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+  nav > a > img {
+    height: 22px;
+  }
+
+  /* Responsive typography */
+  /* 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 28px;
+    } 
+  */
+
+  /* Jumbotron */
+  .jumbotron{
+    background-image: url("../image/morningtree.jpg");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+  }
+
+  /* Box-sizing */
+  .selector-for-some-widget {
+      box-sizing: content-box;
+  }
+
+  /* LAYOUT - Responsive breakpoints */
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) {  
+
+  }
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {  
+
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {  
+
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {  
+      
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+
+  }
+
+
